@@ -1,16 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Shopping Cart</title>  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
 
-<html>
+</head>  
+<body>  
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<div class="container mt-5">  
+    <h2 class="text-center">Shopping cart</h2>  
+    <p class="text-center">The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.</p>  
+    
+    <div class="row">  
+        <div class="col-md-8 cart-container">  
+            <div class="row mb-3">  
+                <div class="col-8">  
+                    <h5>I am very sorry</h5>  
+                    <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>  
+                </div>  
+                <div class="col-4 text-right">  
+                    <label>Quantity:</label>  
+                    <input type="number" class="form-control" value="0" min="0">  
+                    <p class="mt-2">$120</p>  
+                </div>  
+            </div>  
+            <div class="row mb-3">  
+                <div class="col-8">  
+                    <h5>I am very sorry</h5>  
+                    <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>  
+                </div>  
+                <div class="col-4 text-right">  
+                    <label>Quantity:</label>  
+                    <input type="number" class="form-control" value="1" min="0">  
+                    <p class="mt-2">$120</p>  
+                </div>  
+            </div>  
+            <div class="row mb-3">  
+                <div class="col-8">  
+                    <h5>I am very sorry</h5>  
+                    <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>  
+                </div>  
+                <div class="col-4 text-right">  
+                    <label>Quantity:</label>  
+                    <input type="number" class="form-control" value="1" min="0">  
+                    <p class="mt-2">$120</p>  
+                </div>  
+            </div>  
+        </div>  
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+        <div class="col-md-4">  
+            <div class="summary">  
+                <h5>Summary</h5>  
+                <p>Subtotal: $360</p>  
+                <p>Discount: $0</p>  
+                <p>Shipping: $0</p>  
+                <h5>Total: $360</h5>  
+                <button class="btn checkout-btn btn-block">Checkout</button>  
+            </div>  
+        </div>  
+    </div>  
+</div>  
 
-</body>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>  
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
 </html>

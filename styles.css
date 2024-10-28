@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #3b99e0;
+}
+
+p {
+    border-top: #5ea4f3;
+    background-color: #f7fbff;
+}
+
+.cart-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.checkout-btn {
+    background-color: #007bff;
+    color: white;
+}
